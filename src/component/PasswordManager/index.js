@@ -27,9 +27,7 @@ class PasswordManager extends Component {
 
   handleFormData = (event) => {
     event.preventDefault();
-    const { website, username, password, isShow, passwordInfo } = this.state;
-
-    
+    const { website, username, password} = this.state;
 
     const newDetails = {
       id: v4(),
