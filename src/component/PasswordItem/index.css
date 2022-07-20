@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.credentialsBox{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #b6c3ca;
+    border-radius: 6px;
+}
+
+.initialStyling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #10b981;
+    color: #ffffff;
+    font-family: 'Roboto';
+}
+
+.credentialsStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.credentialDetailStyle{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.deleteIcon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.starsStyling{
+    width: 100px;
+    height: auto;
+}
+
+.deleteButtonIcon{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

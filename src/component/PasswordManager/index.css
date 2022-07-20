@@ -1,0 +1,214 @@
+.app-container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #9ba9eb;
+}
+
+.passwords-container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.logo-image{
+    width: 180px;
+    height: 60px;
+}
+
+.password-input-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5763a5;
+    padding: 40px;
+    margin: 30px 0px;
+    border-radius: 8px;
+}
+
+.password-form{
+    background-color: #454f84;
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.password-form form h1{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.inputFieldContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-right: 1px solid #f8fafc;
+    margin: 20px 0px;
+}
+
+.inputFieldContainer div{
+    padding: 10px 10px;
+    border-right: 1px solid #5a5a5a;
+    align-self: stretch;
+}
+
+.inputFieldImage{
+    width: 28px;
+    height: 28px;
+    
+}
+
+.inputField{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.addButtonStyle{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addButtonStyle button{
+    padding: 5px 20px;
+    background-color: #0b69ff;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.password-manager-image{
+    width: 40%;
+}
+
+.passwordImageManager{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.stored-passwords-container{
+    background-color: #5763a5;
+    padding: 40px;
+    margin: 30px 0px;
+    border-radius: 8px;
+}
+
+.stored-header-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6c3ca;
+}
+
+.stored-header-part h1{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.heading-store{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.password-count{
+    font-size: 12px;
+    color: #ffffff;
+    border: 1px solid #b6c3ca;
+    padding: 2px 14px;
+    border-radius: 8px;
+}
+
+.password-search-field{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+   
+}
+
+.searchImgContainer{
+    border-right: 1px solid rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.searchImg{
+    width: 18px;
+    height: 18px;
+
+}
+
+.searchInputField{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.passwords-list-container{
+    margin-top: 30px;
+}
+
+.checkbox-container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.checkboxItem{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+.no-passwords-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-password-image{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.password-status-text{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+
+.listItemRenderStyle{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.password-list-item{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
