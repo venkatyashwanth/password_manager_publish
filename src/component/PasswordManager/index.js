@@ -10,7 +10,7 @@ class PasswordManager extends Component {
     password: "",
     isShow: false,
     passwordInfo: [],
-    searchInput: ''
+    searchInput: '',
   };
 
   handleWebsite = (event) => {
@@ -91,8 +91,12 @@ class PasswordManager extends Component {
   }
 
   render() {
-    const { website, username, password } = this.state;
+    const { website, username, password, searchInput} = this.state;
     const { passwordInfo } = this.state;
+
+    const searchItems = passwordInfo.filter(eachDetail =>
+      eachDetail.website.toLowerCase().includes(searchInput.toLowerCase())
+      )
 
     return (
       <div className="app-container">
@@ -171,7 +175,7 @@ class PasswordManager extends Component {
             <div className="stored-header-part">
               <div className="heading-store">
                 <h1>Your Passwords</h1>
-                <span className="password-count">0</span>
+                <span className="password-count">{searchItems.length}</span>
               </div>
 
               <div className="password-search-field">
